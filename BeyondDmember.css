@@ -1,0 +1,129 @@
+/* body */
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/657602923781554197/xtU31Id_1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.tc{
+  color: #ffd900;
+}
+
+.d{
+  color: gray;
+}
+
+
+
+/* header */
+.hlogo {
+  font-family: "Franklin Gothic Medium";
+  color: Blue;
+  font-size: 2.5vw;
+  margin: 0px;
+  padding: 0.1vw 0vw 0vw 0.5vw;
+  background-color: white;
+}
+.hbti{
+  font-size: 1.5vw;
+  color: #0095ffba;
+  margin: 0vw;
+  padding-left: 3vw;
+}
+
+
+.header{
+  background-color: white;
+  margin: 0px;
+  padding: 0px,20px,0px,20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.hlist{
+  margin: 0px;
+  border: thin solid black;
+}
+
+.hlist ul{
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.hlist li{
+  float: left;
+  list-style: none;
+  background-color: aqua;
+  color: white;
+  margin: 0px;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+}
+
+.hll{
+  font-size: 1.3vw;
+  padding-left: 5vw;
+  padding-right: 4vw;
+}
+
+.hlh{
+  font-size: 1.3vw;
+  padding-right: 4vw;
+}
+
+.hld{
+  font-size: 1.3vw;
+  padding-right: 5.5vw;
+}
+
+
+
+/* main */
+
+
+
+/* footer */
+footer{
+  font-family: arial;
+  font-size: 2.5vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #24292e;
+}
+
+.footer{
+  padding: 1vw 1vw;
+}
+
+
+/* footer-contact us */
+.fc{
+  color:white;
+  font-size: 2vw;
+  border: thin solid gray;
+}
+
+.footer li{
+  list-style: none;
+  font-size: 1.3vw;
+  padding-left: 2vw;
+}
+
+.fcd{
+}
+
+.fcg{
+}
+
+
+/* footer-name */
+.fn{
+  font-size: 1.3vw;
+  color: purple;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  padding-left: 85vw;
+}
