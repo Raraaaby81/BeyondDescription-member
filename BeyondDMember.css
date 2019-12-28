@@ -1,255 +1,659 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Members list</title>
-    <link rel="stylesheet" type="text/css" href="BeyondDMember.css">
-  </head>
+/* body */
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/660384456913453066/KYafcXI.png?width=1060&height=548");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.tc{
+  color: #ffd900;
+}
+
+.d{
+  color: gray;
+}
 
 
 
 
 
-  <body>
-    <header>
-        <div class="hlogo">
-          Beyond Description<br>
-          <span class="hbti">Beyond the impossible</span>
-        </div>
-      </header>
+/* header */
+.hlogo {
+  font-family: "Franklin Gothic Medium";
+  color: Blue;
+  font-size: 2.5vw;
+  margin: 0px;
+  padding: 0.1vw 0vw 0vw 0.5vw;
+  background-color: white;
+  background: linear-gradient(to bottom, #224150d4, transparent);
+}
+.hbti{
+  font-size: 1.5vw;
+  color: #0095ffba;
+  margin: 0vw;
+  padding-left: 3vw;
+}
+
+
+.header{
+  background-color: white;
+  margin: 0px;
+  padding: 0px,20px,0px,20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.hlist{
+  margin: 0px;
+  border: thin solid black;
+}
+
+.hlist ul{
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.hlist li{
+  float: left;
+  list-style: none;
+  background-color: aqua;
+  color: white;
+  margin: 0px;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+}
+
+.hlb{
+  font-size: 1.3vw;
+  padding-left: 5vw;
+  padding-right: 4vw;
+}
+
+.hll{
+  font-size: 1.3vw;
+  padding-right: 4vw;
+}
+
+.hlh{
+  font-size: 1.3vw;
+  padding-right: 4vw;
+}
+
+.hld{
+  font-size: 1.3vw;
+  padding-right: 5.5vw;
+}
 
 
 
-      <div class="header">
-        <div class="hlist">
-          <ul>
-            <li class="hlb"><a class="hlist" href="http://raraaaby81.github.io/BeyondDescription/">Home</a></li>
-            <li class="hll"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-member/">Member List</a></li>
-            <li class="hlh"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-history/">History</a></li>
-            <li class='hld'><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-discord/">Discord</a></li>
-          </ul>
-        </div>
-      </div>
+/* main */
+.main{
+  background-color: white;
+  margin: 7vw 10vw;
+  padding: 3vw 8vw;
+  border: 2px solid aqua;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.mt{
+  font-size: 3vw;
+  font-family: "Lucida Grande";
+  padding-top: 2vw;
+  padding-left: 1vw;
+  border-bottom:medium solid black;
+  margin-bottom: 1vw;
+}
+
+.m{
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
+
+
+/* Master */
+.ma{
+  border: thin solid #800080d4;
+  margin: 1vw 0vw;
+  padding: 1.5vw;
+}
+.man{
+  font-size: 2.5vw;
+  color: purple;
+}
+
+/* ma1 */
+.ma1{
+  border: thin solid #8000805c;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+.mai11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.mai12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.mai13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #80008030;
+}
+
+
+/* Co-Owner */
+.co{
+  border: thin solid #ff00ffd4;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.con{
+  font-size: 2.5vw;
+  color: magenta;
+}
+
+/* co1 */
+.co1{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-top: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co2 */
+.co2{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi21{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi22{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi23{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co3 */
+.co3{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi31{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi32{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi33{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co4 */
+.co4{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi41{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi42{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi43{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co5 */
+.co5{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi51{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi52{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi53{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co6 */
+.co6{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi61{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi62{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi63{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co7 */
+.co7{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi71{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi72{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi73{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co8 */
+.co8{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi81{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi82{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi83{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co9 */
+.co9{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi91{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi92{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi93{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co10 */
+.co10{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi101{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi102{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi103{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co11 */
+.co11{
+  border: thin solid #ff00ff5c;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.coi111{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.coi112{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi113{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+
+/* Leader */
+.le{
+  border: thin solid #ffa500d4;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.len{
+  font-size: 2.5vw;
+  color: orange;
+}
+
+/* Leader1 */
+.le1{
+  border: thin solid #ffa5005c;
+  margin-top: 0.5vw;
+  margin-bottom: 1vw;
+}
+.lei11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.lei12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.lei13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ffa50030;
+}
+
+
+/* Admin */
+.ad{
+  border: thin solid #ffd700d4;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.adn{
+  font-size: 2.5vw;
+  color: gold;
+}
+
+/* ad1 */
+.ad1{
+  border: solid thin #ffd7005c;
+  padding-top: 0.5vw;
+}
+.adi11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.adi12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.adi13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ffd70030;
+}
+
+
+/* Supe-Member */
+.sm{
+  border: thin solid #0000ffd4;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.smn{
+  font-size: 2.5vw;
+  color: blue;
+}
+
+/* sm1 */
+.sm1{
+  border: thin solid #0000ff5c;
+  margin-top: 0.5vw;
+}
+.smi11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.smi12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.smi13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #0000ff30;
+}
+
+
+/* Member */
+.me{
+  border: thin solid #00ffffd4;
+  padding: 1.5vw;
+}
+.men{
+  font-size: 2.5vw;
+  color: aqua;
+}
+
+/* me1 */
+.me1{
+  border: thin solid #00ffff5c;
+  margin: 0.5vw;
+}
+.mei11{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.mei12{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.mei13{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #00ffff30;
+}
 
 
 
-      <div class="main">
-        <div class="mt">
-          <strong>Member List</strong>
-        </div>
+/* footer */
+footer{
+  font-family: arial;
+  font-size: 2.5vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #24292e;
+  box-shadow: 0 0 10vw,0 0 2vw inset;
+}
 
-        <div class="m">
-          <!-- Master -->
-          <div class="ma">
-            <div class="man">
-              <u>Guild Master</u>
-            </div>
-            <div class="ma1">
-              <div class="mai11">
-                Kurumi_k921
-              </div>
-              <div class="mai12">
-                Joined(Created):2016/08/21 06:31:51
-              </div>
-              <div class="mai13">
-                Hello!!<br>
-                Would you like to join this guild?<br>
-                Everyone in this guild is looking forward to you!
-              </div>
-            </div>
-          </div>
-
-          <!-- Co-Owner -->
-          <div class="co">
-            <div class="con">
-              <u>Co-Owner</u>
-            </div>
-            <!-- co1 -->
-            <div class="co1">
-              <div class="coi11">
-                Mt_I
-              </div>
-              <div class="coi12">
-                Joined:2016/09/03 03:03:14
-              </div>
-              <div class="coi13">
-                text
-              </div>
-            </div>
-            <!-- co2 -->
-            <div class="co2">
-              <div class="coi21">
-                FUTO_
-              </div>
-              <div class="coi22">
-                Joined:2018/07/14 09:45:02
-              </div>
-              <div class="coi23">
-                text
-              </div>
-            </div>
-            <!-- co3 -->
-            <div class="co3">
-              <div class="coi31">
-                Aliey
-              </div>
-              <div class="coi32">
-                Joined:2019/03/23 04:07:58
-              </div>
-              <div class="coi33">
-                text
-              </div>
-            </div>
-            <!-- co4 -->
-            <div class="co4">
-              <div class="coi41">
-                Rega_Ria
-              </div>
-              <div class="coi42">
-                Joined:2019/03/26 04:35:02
-              </div>
-              <div class="coi43">
-                text
-              </div>
-            </div>
-            <!-- co5 -->
-            <div class="co5">
-              <div class="coi51">
-                Wa_inauu
-              </div>
-              <div class="coi52">
-                Joined:2018/12/22 01:40:36
-              </div>
-              <div class="coi53">
-                text
-              </div>
-            </div>
-            <!-- co6 -->
-            <div class="co6">
-              <div class="coi61">
-                Minus3141
-              </div>
-              <div class="coi62">
-                Joined:2018/10/03 05:54:48
-              </div>
-              <div class="coi63">
-                text
-              </div>
-            </div>
-            <!-- co7 -->
-            <div class="co7">
-              <div class="coi71">
-                Mos_ps
-              </div>
-              <div class="coi72">
-                Joined:2019/04/20 07:44:53
-              </div>
-              <div class="coi73">
-                text
-              </div>
-            </div>
-            <!-- co8 -->
-            <div class="co8">
-              <div class="coi81">
-                chibimaro0203
-              </div>
-              <div class="coi82">
-                Joined:2019/03/28 06:06:09
-              </div>
-              <div class="coi83">
-                text
-              </div>
-            </div>
-            <!-- co9 -->
-            <div class="co9">
-              <div class="coi91">
-                Mint_IA
-              </div>
-              <div class="coi92">
-                Joined:2018/11/03 01:32:47
-              </div>
-              <div class="coi93">
-                text
-              </div>
-            </div>
-            <!-- co10 -->
-            <div class="co10">
-              <div class="coi101">
-                Swordmob
-              </div>
-              <div class="coi102">
-                Joined:2018/06/07 06:55:00
-              </div>
-              <div class="coi103">
-                text
-              </div>
-            </div>
-            <!-- co11 -->
-            <div class="co11">
-              <div class="coi111">
-                JungoO0o
-              </div>
-              <div class="coi112">
-                Joined:2019/07/21 02:45:19
-              </div>
-              <div class="coi113">
-                text
-              </div>
-            </div>
-          </div>
-
-          <!-- Leader -->
-          <div class="le">
-            <div class="len">
-              <u>Leader</u>
-            </div>
-            <div class="le1">
-            </div>
-          </div>
-
-          <!-- Admin -->
-          <div class="ad">
-            <div class="adn">
-              <u>Admin</u>
-            </div>
-            <div class="ad1">
-            </div>
-          </div>
-
-          <!-- Super Member -->
-          <div class="sm">
-            <div class="smn">
-              <u>Super Member<u>
-            </div>
-            <div class="sm1">
-            </div>
-          </div>
-
-          <!-- Member -->
-          <div class="me">
-            <div class="men">
-              <u>Member</u>
-            </div>
-            <div class="me1">
-            </div>
-          </div>
-        </div>
-      </div>
+.footer{
+  padding: 1vw 1vw;
+}
 
 
+/* footer-contact us */
+.fc{
+  color:white;
+  font-size: 2vw;
+  border: thin solid gray;
+}
+
+.footer li{
+  list-style: none;
+  font-size: 1.3vw;
+  padding-left: 2vw;
+}
+
+.fcd{
+}
+
+.fcg{
+}
 
 
-      <footer>
-        <div class="footer">
-          <div class="fc">
-            contact us
-            <li><a class="fcd" href="https://discord.gg/8u4FrXW">Discord</a></li>
-            <li><a class="fcg" href="google.jp">Google Form</a></li>
-          </div>
-          <div class="fn">
-            Beyond Description
-          </div>
-        </div>
-      </footer>
-  </body>
-</html>
+/* footer-name */
+.fn{
+  font-size: 1.3vw;
+  color: purple;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  padding-left: 85vw;
+}
+
+
+mt_I
+futo
+alie
+rega
+ina
+Minus
+Mos
+chib
+mint
+sword
+jung
