@@ -27,6 +27,7 @@ body{
   margin: 0px;
   padding: 0.1vw 0vw 0vw 0.5vw;
   background-color: white;
+  background: linear-gradient(to bottom, #224150d4, transparent);
 }
 .hbti{
   font-size: 1.5vw;
@@ -92,6 +93,7 @@ footer{
   margin: 0px;
   padding: 0px;
   background-color: #24292e;
+  box-shadow: 0 0 10vw,0 0 2vw inset;
 }
 
 .footer{
