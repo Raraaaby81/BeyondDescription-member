@@ -1,231 +1,255 @@
-/* body */
-body{
-  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/660384456913453066/KYafcXI.png?width=1060&height=548");
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-
-
-.tc{
-  color: #ffd900;
-}
-
-.d{
-  color: gray;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Members list</title>
+    <link rel="stylesheet" type="text/css" href="BeyondDMember.css">
+  </head>
 
 
 
 
 
-/* header */
-.hlogo {
-  font-family: "Franklin Gothic Medium";
-  color: Blue;
-  font-size: 2.5vw;
-  margin: 0px;
-  padding: 0.1vw 0vw 0vw 0.5vw;
-  background-color: white;
-  background: linear-gradient(to bottom, #224150d4, transparent);
-}
-.hbti{
-  font-size: 1.5vw;
-  color: #0095ffba;
-  margin: 0vw;
-  padding-left: 3vw;
-}
-
-
-.header{
-  background-color: white;
-  margin: 0px;
-  padding: 0px,20px,0px,20px;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-}
-
-.hlist{
-  margin: 0px;
-  border: thin solid black;
-}
-
-.hlist ul{
-  margin: 0px;
-  padding-left: 0px;
-}
-
-.hlist li{
-  float: left;
-  list-style: none;
-  background-color: aqua;
-  color: white;
-  margin: 0px;
-  padding-top: 0.3vw;
-  padding-bottom: 0.3vw;
-}
-
-.hll{
-  font-size: 1.3vw;
-  padding-left: 5vw;
-  padding-right: 4vw;
-}
-
-.hlh{
-  font-size: 1.3vw;
-  padding-right: 4vw;
-}
-
-.hld{
-  font-size: 1.3vw;
-  padding-right: 5.5vw;
-}
+  <body>
+    <header>
+        <div class="hlogo">
+          Beyond Description<br>
+          <span class="hbti">Beyond the impossible</span>
+        </div>
+      </header>
 
 
 
-/* main */
-.main{
-  background-color: white;
-  margin: 7vw 10vw;
-  padding: 3vw 8vw;
-  border: 2px solid aqua;
-  box-shadow: 0 0 10px rgba(0,0,0,1);
-}
-
-.mt{
-  font-size: 3vw;
-  font-family: "Lucida Grande";
-  padding-top: 2vw;
-  padding-left: 1vw;
-  border-bottom:medium solid black;
-  margin-bottom: 1vw;
-}
-
-.m{
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
-}
-
-.ma{
-  border: thin solid #800080d4;
-  margin-top: 0.8vw;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.ma1{
-  border: thin solid #8000805e;
-  margin-top: 0.5vw;
-}
-.man{
-  font-size: 2.5vw;
-  color: purple;
-}
-.mai1{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-}
-.mai2{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.mai3{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #80008036;
-}
-
-.co{
-  border: thin solid #ff00ffd4;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.con1{
-  font-size: 2.5vw;
-  color: magenta;
-}
-.con2{
-  font-size: 1.8vw;
-  padding-left: 1vw;
-}
-
-.le{
-}
-.len1{
-}
-.len2{
-}
-.ad{
-}
-.adn1{
-}
-.adn2{
-}
-
-.sm{
-}
-.smn1{
-}
-.smn2{
-}
-
-.me{
-}
-.men1{
-}
-.men2{
-}
+      <div class="header">
+        <div class="hlist">
+          <ul>
+            <li class="hlb"><a class="hlist" href="http://raraaaby81.github.io/BeyondDescription/">Home</a></li>
+            <li class="hll"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-member/">Member List</a></li>
+            <li class="hlh"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-history/">History</a></li>
+            <li class='hld'><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-discord/">Discord</a></li>
+          </ul>
+        </div>
+      </div>
 
 
 
-/* footer */
-footer{
-  font-family: arial;
-  font-size: 2.5vw;
-  margin: 0px;
-  padding: 0px;
-  background-color: #24292e;
-  box-shadow: 0 0 10vw,0 0 2vw inset;
-}
+      <div class="main">
+        <div class="mt">
+          <strong>Member List</strong>
+        </div>
 
-.footer{
-  padding: 1vw 1vw;
-}
+        <div class="m">
+          <!-- Master -->
+          <div class="ma">
+            <div class="man">
+              <u>Guild Master</u>
+            </div>
+            <div class="ma1">
+              <div class="mai11">
+                Kurumi_k921
+              </div>
+              <div class="mai12">
+                Joined(Created):2016/08/21 06:31:51
+              </div>
+              <div class="mai13">
+                Hello!!<br>
+                Would you like to join this guild?<br>
+                Everyone in this guild is looking forward to you!
+              </div>
+            </div>
+          </div>
+
+          <!-- Co-Owner -->
+          <div class="co">
+            <div class="con">
+              <u>Co-Owner</u>
+            </div>
+            <!-- co1 -->
+            <div class="co1">
+              <div class="coi11">
+                Mt_I
+              </div>
+              <div class="coi12">
+                Joined:2016/09/03 03:03:14
+              </div>
+              <div class="coi13">
+                text
+              </div>
+            </div>
+            <!-- co2 -->
+            <div class="co2">
+              <div class="coi21">
+                FUTO_
+              </div>
+              <div class="coi22">
+                Joined:2018/07/14 09:45:02
+              </div>
+              <div class="coi23">
+                text
+              </div>
+            </div>
+            <!-- co3 -->
+            <div class="co3">
+              <div class="coi31">
+                Aliey
+              </div>
+              <div class="coi32">
+                Joined:2019/03/23 04:07:58
+              </div>
+              <div class="coi33">
+                text
+              </div>
+            </div>
+            <!-- co4 -->
+            <div class="co4">
+              <div class="coi41">
+                Rega_Ria
+              </div>
+              <div class="coi42">
+                Joined:2019/03/26 04:35:02
+              </div>
+              <div class="coi43">
+                text
+              </div>
+            </div>
+            <!-- co5 -->
+            <div class="co5">
+              <div class="coi51">
+                Wa_inauu
+              </div>
+              <div class="coi52">
+                Joined:2018/12/22 01:40:36
+              </div>
+              <div class="coi53">
+                text
+              </div>
+            </div>
+            <!-- co6 -->
+            <div class="co6">
+              <div class="coi61">
+                Minus3141
+              </div>
+              <div class="coi62">
+                Joined:2018/10/03 05:54:48
+              </div>
+              <div class="coi63">
+                text
+              </div>
+            </div>
+            <!-- co7 -->
+            <div class="co7">
+              <div class="coi71">
+                Mos_ps
+              </div>
+              <div class="coi72">
+                Joined:2019/04/20 07:44:53
+              </div>
+              <div class="coi73">
+                text
+              </div>
+            </div>
+            <!-- co8 -->
+            <div class="co8">
+              <div class="coi81">
+                chibimaro0203
+              </div>
+              <div class="coi82">
+                Joined:2019/03/28 06:06:09
+              </div>
+              <div class="coi83">
+                text
+              </div>
+            </div>
+            <!-- co9 -->
+            <div class="co9">
+              <div class="coi91">
+                Mint_IA
+              </div>
+              <div class="coi92">
+                Joined:2018/11/03 01:32:47
+              </div>
+              <div class="coi93">
+                text
+              </div>
+            </div>
+            <!-- co10 -->
+            <div class="co10">
+              <div class="coi101">
+                Swordmob
+              </div>
+              <div class="coi102">
+                Joined:2018/06/07 06:55:00
+              </div>
+              <div class="coi103">
+                text
+              </div>
+            </div>
+            <!-- co11 -->
+            <div class="co11">
+              <div class="coi111">
+                JungoO0o
+              </div>
+              <div class="coi112">
+                Joined:2019/07/21 02:45:19
+              </div>
+              <div class="coi113">
+                text
+              </div>
+            </div>
+          </div>
+
+          <!-- Leader -->
+          <div class="le">
+            <div class="len">
+              <u>Leader</u>
+            </div>
+            <div class="le1">
+            </div>
+          </div>
+
+          <!-- Admin -->
+          <div class="ad">
+            <div class="adn">
+              <u>Admin</u>
+            </div>
+            <div class="ad1">
+            </div>
+          </div>
+
+          <!-- Super Member -->
+          <div class="sm">
+            <div class="smn">
+              <u>Super Member<u>
+            </div>
+            <div class="sm1">
+            </div>
+          </div>
+
+          <!-- Member -->
+          <div class="me">
+            <div class="men">
+              <u>Member</u>
+            </div>
+            <div class="me1">
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-/* footer-contact us */
-.fc{
-  color:white;
-  font-size: 2vw;
-  border: thin solid gray;
-}
-
-.footer li{
-  list-style: none;
-  font-size: 1.3vw;
-  padding-left: 2vw;
-}
-
-.fcd{
-}
-
-.fcg{
-}
 
 
-/* footer-name */
-.fn{
-  font-size: 1.3vw;
-  color: purple;
-  padding-top: 1vw;
-  padding-bottom: 2vw;
-  padding-left: 85vw;
-}
+      <footer>
+        <div class="footer">
+          <div class="fc">
+            contact us
+            <li><a class="fcd" href="https://discord.gg/8u4FrXW">Discord</a></li>
+            <li><a class="fcg" href="google.jp">Google Form</a></li>
+          </div>
+          <div class="fn">
+            Beyond Description
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
