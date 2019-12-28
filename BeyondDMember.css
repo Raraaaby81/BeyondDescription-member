@@ -1,6 +1,6 @@
 /* body */
 body{
-  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/657602923781554197/xtU31Id_1.png");
+  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/660384456913453066/KYafcXI.png?width=1060&height=548");
   background-size: cover;
   background-attachment: fixed;
   margin: 0px;
@@ -16,6 +16,8 @@ body{
 .d{
   color: gray;
 }
+
+
 
 
 
@@ -83,6 +85,104 @@ body{
 
 
 /* main */
+.main{
+  background-color: white;
+  margin: 7vw 10vw;
+  padding: 3vw 8vw;
+  border: 2px solid aqua;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.mt{
+  font-size: 3vw;
+  font-family: "Lucida Grande";
+  padding-top: 2vw;
+  padding-left: 1vw;
+  border-bottom:medium solid black;
+  margin-bottom: 1vw;
+}
+
+.m{
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
+
+.ma{
+  border: thin solid #800080d4;
+  margin-top: 0.8vw;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.ma1{
+  border: thin solid #8000805e;
+  margin-top: 0.5vw;
+}
+.man{
+  font-size: 2.5vw;
+  color: purple;
+}
+.mai1{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+}
+.mai2{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.mai3{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #80008036;
+}
+
+.co{
+  border: thin solid #ff00ffd4;
+  margin-bottom: 1vw;
+  padding: 1.5vw;
+}
+.con1{
+  font-size: 2.5vw;
+  color: magenta;
+}
+.con2{
+  font-size: 1.8vw;
+  padding-left: 1vw;
+}
+
+.le{
+}
+.len1{
+}
+.len2{
+}
+.ad{
+}
+.adn1{
+}
+.adn2{
+}
+
+.sm{
+}
+.smn1{
+}
+.smn2{
+}
+
+.me{
+}
+.men1{
+}
+.men2{
+}
 
 
 
