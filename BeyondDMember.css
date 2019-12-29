@@ -91,7 +91,7 @@ body{
 
 /* main */
 .main{
-  background-color: white;
+  background-color: #ffffffe6;
   margin: 7vw 10vw;
   padding: 3vw 8vw;
   border: 2px solid aqua;
@@ -105,13 +105,6 @@ body{
   padding-left: 1vw;
   border-bottom:medium solid black;
   margin-bottom: 1vw;
-}
-
-.m{
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
 }
 
 
@@ -154,6 +147,12 @@ body{
   padding-left: 1vw;
 }
 
+.m{
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
 
 /* Master */
 .ma{
