@@ -59,7 +59,7 @@ body{
 .hlist li{
   float: left;
   list-style: none;
-  background-color: aqua;
+  background-color: #627cd042;
   color: white;
   margin: 0px;
   padding-top: 0.3vw;
@@ -112,6 +112,46 @@ body{
   border-left: thin solid #737373;
   border-right: thin solid #737373;
   padding: 1vw 5vw;
+}
+
+
+/* Role about */
+.ra{
+  padding: 1vw 5vw;
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
+
+.rap{
+  border: solid thin #e6e6e6;
+  padding: 0.5vw 1vw;
+  margin-bottom: 1vw;
+}
+.rapn{
+  font-size: 1.5vw;
+  color: blue;
+  padding-bottom: 0.1vw;
+}
+.rapd{
+  font-size: 1.3vw;
+  padding-left: 1vw;
+}
+
+.rad{
+  border: solid thin #e6e6e6;
+  padding: 0.5vw 1vw;
+  margin-bottom: 1vw;
+}
+.radn{
+  font-size: 1.5vw;
+  color: red;
+  padding-bottom: 0.1vw;
+}
+.radd{
+  font-size: 1.3vw;
+  padding-left: 1vw;
 }
 
 
@@ -1043,34 +1083,29 @@ body{
   color: gold;
 }
 
-/* ad1 */
-.ad1{
-  border: solid thin #ffd7005c;
-  padding-top: 0.5vw;
+/*  admin test */
+.adu{
+  list-style: none;
+  padding-inline-start: 3vw;
+  padding-inline-end: 3vw;
 }
-.adi11{
-  font-size: 2vw;
+.adl{
+  font-size: 1.5vw;
+  border: thin solid blue;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
   padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
-.adi12{
-  padding-left: 2vw;
+.adln{
   font-size: 1.5vw;
 }
-.adi13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffd70030;
+.adlj{
+  font-size: 1vw;
+  padding-left: 1vw;
 }
 
-
-/* Supe-Member */
+/* Supe Member */
 .sm{
   border: thin solid #0000ffd4;
   margin-bottom: 1vw;
@@ -1081,30 +1116,12 @@ body{
   color: blue;
 }
 
-/* sm1 */
-.sm1{
+/* Super Member-list */
+.sml{
+  font-size: 1.3vw;
   border: thin solid #0000ff5c;
   margin-top: 0.5vw;
-}
-.smi11{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.smi12{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.smi13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #0000ff30;
+  padding: 2vw 3vw;
 }
 
 
@@ -1118,32 +1135,6 @@ body{
   color: aqua;
 }
 
-/* me1 */
-.me1{
-  border: thin solid #00ffff5c;
-  margin: 0.5vw;
-}
-.mei11{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.mei12{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.mei13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #00ffff30;
-}
-
 
 
 /* footer */
@@ -1152,20 +1143,12 @@ footer{
   font-size: 2.5vw;
   margin: 0px;
   padding: 0px;
-  background-color: #24292e;
+  background-color: #0a0b0ce6;
   box-shadow: 0 0 10vw,0 0 2vw inset;
 }
 
 .footer{
   padding: 1vw 1vw;
-}
-
-
-/* footer-contact us */
-.fc{
-  color:white;
-  font-size: 2vw;
-  border: thin solid gray;
 }
 
 .footer li{
@@ -1174,18 +1157,39 @@ footer{
   padding-left: 2vw;
 }
 
+/* footer-Official Info */
+.oi{
+  color:white;
+  font-size: 2vw;
+  padding: 0.5vw 1vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border: thin solid gray;
+}
+.oihf{
+}
+.oihm{
+}
+.oipi{
+}
+
+/* footer-Contact Us */
+.fc{
+  color:white;
+  font-size: 2vw;
+  padding: 0.5vw 1vw;
+  border: thin solid gray;
+}
 .fcd{
 }
-
 .fcg{
 }
-
 
 /* footer-name */
 .fn{
   font-size: 1.3vw;
   color: purple;
   padding-top: 1vw;
-  padding-bottom: 2vw;
+  padding-bottom: 1vw;
   padding-left: 85vw;
 }
