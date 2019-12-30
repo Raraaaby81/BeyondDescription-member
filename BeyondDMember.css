@@ -94,7 +94,7 @@ body{
   background-color: #ffffffe6;
   margin: 7vw 10vw;
   padding: 3vw 8vw;
-  border: 2px solid aqua;
+  border: 2px solid #ffdb00;
   box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
@@ -118,7 +118,7 @@ body{
 }
 
 .rap{
-  border: solid thin #e6e6e6;
+  border: solid thin #b5b5b5;
   padding: 0.5vw 1vw;
   margin-bottom: 1vw;
 }
@@ -133,7 +133,7 @@ body{
 }
 
 .rad{
-  border: solid thin #e6e6e6;
+  border: solid thin #b5b5b5;
   padding: 0.5vw 1vw;
   margin-bottom: 1vw;
 }
@@ -1119,8 +1119,8 @@ body{
 .sml{
   font-size: 1.3vw;
   border: thin solid #0000ff5c;
-  margin-top: 0.5vw;
-  padding: 2vw 3vw;
+  margin: 0.5vw 4vw;
+  padding: 2vw 5vw;
 }
 
 
@@ -1191,4 +1191,9 @@ footer{
   padding-top: 1vw;
   padding-bottom: 1vw;
   padding-left: 85vw;
+}
+.fnm{
+  color: #191f25b0;
+  font-size: 1.5vw;
+  padding-left: 2vw;
 }
