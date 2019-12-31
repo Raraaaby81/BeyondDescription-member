@@ -1,1236 +1,840 @@
-/* body */
-body{
-  background-image: url("https://cdn.discordapp.com/attachments/294771564115656704/660384456913453066/KYafcXI.png?width=1060&height=548");
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-
-
-.tc{
-  color: #ffd900;
-}
-
-.d{
-  color: gray;
-}
-
-
-
-
-
-/* header */
-.hlogo {
-  font-family: "Franklin Gothic Medium";
-  color: Blue;
-  font-size: 2.5vw;
-  margin: 0px;
-  padding: 0.1vw 0vw 0vw 0.5vw;
-  background-color: white;
-  background: linear-gradient(to bottom, #224150d4, transparent);
-}
-.hbti{
-  font-size: 1.5vw;
-  color: #0095ffba;
-  margin: 0vw;
-  padding-left: 3vw;
-}
-
-
-.header{
-  background-color: white;
-  margin: 0px;
-  padding: 0px,20px,0px,20px;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-}
-
-.hlist{
-  margin: 0px;
-  border: thin solid black;
-}
-
-.hlist ul{
-  margin: 0px;
-  padding-left: 0px;
-}
-
-.hlist li{
-  float: left;
-  list-style: none;
-  background-color: #627cd042;
-  color: white;
-  margin: 0px;
-  padding-top: 0.3vw;
-  padding-bottom: 0.3vw;
-}
-
-.hlb{
-  font-size: 1.3vw;
-  padding-left: 5vw;
-  padding-right: 4vw;
-}
-
-.hll{
-  font-size: 1.3vw;
-  padding-right: 4vw;
-}
-
-.hlh{
-  font-size: 1.3vw;
-  padding-right: 4vw;
-}
-
-.hld{
-  font-size: 1.3vw;
-  padding-right: 5.5vw;
-}
-
-
-
-/* main */
-.main{
-  background-color: #ffffffe6;
-  margin: 7vw 10vw;
-  padding: 3vw 8vw;
-  border: 2px solid #ffdb00;
-  box-shadow: 0 0 10px rgba(0,0,0,1);
-}
-
-.mt{
-  font-size: 3vw;
-  font-family: "Lucida Grande";
-  padding-top: 2vw;
-  padding-left: 1vw;
-  border-bottom:medium solid black;
-  margin-bottom: 1vw;
-}
-
-
-/* Role about */
-.ml{
-  padding: 1vw 5vw;
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
-}
-.mls{
-  padding: 1vw 5vw;
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
-}
-.mlst{
-  font-size: 1.8vw;
-}
-.hypi{
-  font-size: 1.5vw;
-  color: gold;
-  border: solid thin #b5b5b5;
-  padding: 0.5vw 1vw;
-  margin-bottom: 1vw;
-}
-.plan{
-  font-size: 1.5vw;
-  color: #1deaea;
-  border: solid thin #b5b5b5;
-  padding: 0.5vw 1vw;
-  margin-bottom: 1vw;
-}
-.mlsl{
-  padding-left: 1vw;
-}
-
-.ra{
-  padding: 1vw 5vw;
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
-}
-.rap{
-  border: solid thin #b5b5b5;
-  padding: 0.5vw 1vw;
-  margin-bottom: 1vw;
-}
-.rapn{
-  font-size: 1.5vw;
-  color: blue;
-  padding-bottom: 0.1vw;
-}
-.rapd{
-  font-size: 1.3vw;
-  padding-left: 1vw;
-}
-
-.rad{
-  border: solid thin #b5b5b5;
-  padding: 0.5vw 1vw;
-  margin-bottom: 1vw;
-}
-.radn{
-  font-size: 1.5vw;
-  color: red;
-  padding-bottom: 0.1vw;
-}
-.radd{
-  font-size: 1.3vw;
-  padding-left: 1vw;
-}
-
-.m{
-  font-family: YuMincho;
-  border-left: thin solid #737373;
-  border-right: thin solid #737373;
-  padding: 1vw 5vw;
-}
-
-/* Master */
-.ma{
-  border: thin solid #800080d4;
-  margin: 1vw 0vw;
-  padding: 1.5vw;
-}
-.man{
-  font-size: 2.5vw;
-  color: purple;
-}
-
-/* ma1 */
-.ma1{
-  border: thin solid #8000805c;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
-}
-.mai11{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.mai12{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.mai13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #80008030;
-}
-
-
-/* Co-Owner */
-.co{
-  border: thin solid #ff00ffd4;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.con{
-  font-size: 2.5vw;
-  color: magenta;
-}
-
-/* co1 */
-.co1{
-  border: thin solid #ff00ff5c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.coi11{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi12{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co2 */
-.co2{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi21{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi22{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi23{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co3 */
-.co3{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi31{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi32{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi33{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co4 */
-.co4{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi41{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi42{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi43{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co5 */
-.co5{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi51{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi52{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi53{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co6 */
-.co6{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi61{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi62{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi63{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co7 */
-.co7{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi71{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi72{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi73{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co8 */
-.co8{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi81{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi82{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi83{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co9 */
-.co9{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi91{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi92{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi93{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co10 */
-.co10{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi101{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi102{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi103{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-/* co11 */
-.co11{
-  border: thin solid #ff00ff5c;
-  margin-bottom: 1vw;
-}
-.coi111{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.coi112{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.coi113{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ff00ff30;
-}
-
-
-/* Leader */
-.le{
-  border: thin solid #ffa500d4;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.len{
-  font-size: 2.5vw;
-  color: orange;
-}
-
-/* Leader1 */
-.le1{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei11{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei12{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei13{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader2 */
-.le2{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei21{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei22{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei23{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader3 */
-.le3{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei31{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei32{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei33{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader4 */
-.le4{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei41{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei42{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei43{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader5 */
-.le5{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei51{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei52{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei53{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader6 */
-.le6{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei61{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei62{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei63{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader7 */
-.le7{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei71{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei72{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei73{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader8 */
-.le8{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei81{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei82{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei83{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader9 */
-.le9{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei91{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei92{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei93{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader10 */
-.le10{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei101{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei102{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei103{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader11 */
-.le11{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei111{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei112{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei113{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader12 */
-.le12{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei121{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei122{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei123{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader13 */
-.le13{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei131{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei132{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei133{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader14 */
-.le14{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei141{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei142{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei143{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader15 */
-.le15{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei151{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei152{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei153{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader16 */
-.le16{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei161{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei162{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei163{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader17 */
-.le17{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei171{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei172{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei173{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader18 */
-.le18{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei181{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei182{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei183{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader19 */
-.le19{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei191{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei192{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei193{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader20 */
-.le20{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei201{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei202{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei203{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-/* Leader21 */
-.le21{
-  border: thin solid #ffa5005c;
-  margin-top: 0.5vw;
-  margin-bottom: 1vw;
-}
-.lei211{
-  font-size: 2vw;
-  padding-left: 1vw;
-  padding-right: 7vw;
-  padding-top: 0.5vw;
-}
-.lei212{
-  padding-left: 2vw;
-  font-size: 1.5vw;
-}
-.lei213{
-  font-size: 1.1vw;
-  margin-top: 0vw;
-  margin-bottom: 1vw;
-  margin-right: 2vw;
-  margin-left: 2vw;
-  padding-top: 0.3vw;
-  padding: 0.5vw 2vw;
-  border: thin solid #ffa50030;
-}
-
-
-/* Admin */
-.ad{
-  border: thin solid #ffd700d4;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.adn{
-  font-size: 2.5vw;
-  color: gold;
-}
-
-/*  admin test */
-.adu{
-  list-style: none;
-  padding-inline-start: 3vw;
-  padding-inline-end: 3vw;
-}
-.adl{
-  font-size: 1.5vw;
-  border: thin solid blue;
-  padding-top: 0.3vw;
-  padding-bottom: 0.3vw;
-  padding-left: 1vw;
-  margin-bottom: 0.5vw;
-}
-.adln{
-  font-size: 1.5vw;
-}
-.adlj{
-  font-size: 1vw;
-  padding-left: 1vw;
-}
-
-/* Supe Member */
-.sm{
-  border: thin solid #0000ffd4;
-  margin-bottom: 1vw;
-  padding: 1.5vw;
-}
-.smn{
-  font-size: 2.5vw;
-  color: blue;
-}
-
-/* Super Member-list */
-.sml{
-  font-size: 1.3vw;
-  border: thin solid #0000ff5c;
-  margin: 0.5vw 4vw;
-  padding: 2vw 5vw;
-}
-
-
-/* Member */
-.me{
-  border: thin solid #00ffffd4;
-  padding: 1.5vw;
-}
-.men{
-  font-size: 2.5vw;
-  color: #1deaea;
-}
-
-
-
-/* footer */
-footer{
-  font-family: arial;
-  font-size: 2.5vw;
-  margin: 0px;
-  padding: 0px;
-  background-color: #0a0b0ce6;
-  box-shadow: 0 0 10vw,0 0 2vw inset;
-}
-
-.footer{
-  padding: 1vw 1vw;
-}
-
-.footer li{
-  list-style: none;
-  font-size: 1.3vw;
-  padding-left: 2vw;
-}
-
-/* footer-Official Info */
-.oi{
-  color:white;
-  font-size: 2vw;
-  padding: 0.5vw 1vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  border: thin solid gray;
-}
-.oihf{
-}
-.oihm{
-}
-.oipi{
-}
-
-/* footer-Contact Us */
-.fc{
-  color:white;
-  font-size: 2vw;
-  padding: 0.5vw 1vw;
-  border: thin solid gray;
-}
-.fcd{
-}
-.fcg{
-}
-
-/* footer-name */
-.fn{
-  font-size: 1.3vw;
-  color: purple;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  padding-left: 85vw;
-}
-.fnm{
-  color: #191f25b0;
-  font-size: 1.5vw;
-  padding-left: 2vw;
-}
-
-/* Beyond Description */
-/* Kurumi_k921 */
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Members list</title>
+    <link rel="stylesheet" type="text/css" href="BeyondDMember.css">
+  </head>
+
+
+
+
+
+  <body>
+    <header>
+        <div class="hlogo">
+          Beyond Description<br>
+          <span class="hbti">Beyond the impossible</span>
+        </div>
+      </header>
+
+
+
+      <div class="header">
+        <div class="hlist">
+          <ul>
+            <li class="hlb"><a class="hlist" href="http://raraaaby81.github.io/BeyondDescription/">Home</a></li>
+            <li class="hll"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-member/">Member List</a></li>
+            <li class="hlh"><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-history/">History</a></li>
+            <li class='hld'><a class="hlist" href="https://raraaaby81.github.io/BeyondDescription-discord/">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="main">
+        <div class="mt">
+          <strong>Member List</strong>
+        </div>
+
+        <div class="ml">
+          <div class="mls">
+            <div class="hypi">
+              <span class="mlst">Hypixel Guild Member List</span><br>
+              <a class="mlsl" href="https://hypixel.net/guilds/Beyond+Description/members">Hypixel</a>
+            </div>
+            <div class="plan">
+              <span class="mlst"> Planke Guild Member List</span><br>
+              <a class="mlsl" href="https://plancke.io/hypixel/guild/name/beyond%20description">Planke</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ra">
+          <div class="rap">
+            <div class="rapn">
+              <strong>Promote</strong>
+            </div>
+            <div class="rapd">
+              Each time a guild level goes up, several people will be promoted.
+            </div>
+          </div>
+          <div class="rad">
+            <div class="radn">
+              <strong>Demote</strong>
+            </div>
+            <div class="radd">
+              Usually not demoted.<br>
+              However, you may be demoted if you are not active or do not earn gexp.<br>
+              The higher the rank, the higher the probability.<br>
+            </div>
+          </div>
+        </div>
+
+        <div class="m">
+          <!-- Master -->
+          <div class="ma">
+            <div class="man">
+              <u>Guild Master : 1player</u>
+            </div>
+            <div class="ma1">
+              <div class="mai11">
+                Kurumi_k921
+              </div>
+              <div class="mai12">
+                Joined(Created):2016/08/21 06:31:51
+              </div>
+              <div class="mai13">
+                <i>
+                  Hello!!<br>
+                  Would you like to join this guild?<br>
+                  Everyone in this guild is looking forward to you!<br>
+                </i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Co-Owner -->
+          <div class="co">
+            <div class="con">
+              <u>Co-Owner : 11players</u>
+            </div>
+            <!-- co1 -->
+            <div class="co1">
+              <div class="coi11">
+                Mt_I
+              </div>
+              <div class="coi12">
+                Joined:2016/09/03 03:03:14S
+              </div>
+              <div class="coi13">
+                <i>
+                  Glhf<br>
+                </i>
+              </div>
+            </div>
+            <!-- co2 -->
+            <div class="co2">
+              <div class="coi21">
+                FUTO_
+              </div>
+              <div class="coi22">
+                Joined:2018/07/14 09:45:02
+              </div>
+              <div class="coi23">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- co3 -->
+            <div class="co3">
+              <div class="coi31">
+                Aliey
+              </div>
+              <div class="coi32">
+                Joined:2019/03/23 04:07:58
+              </div>
+              <div class="coi33">
+                <i>
+                  My favorite game is Warlords.<br>
+                  I like Touhou Project very much!<br>
+                  fin.<br>
+                </i>
+              </div>
+            </div>
+            <!-- co4 -->
+            <div class="co4">
+              <div class="coi41">
+                Rega_Ria (Real_account)
+              </div>
+              <div class="coi42">
+                Joined:2019/03/26 04:35:02
+              </div>
+              <div class="coi43">
+                <i>
+                  I love you♡<br>
+                </i>
+              </div>
+            </div>
+            <!-- co5 -->
+            <div class="co5">
+              <div class="coi51">
+                Wa_inauu
+              </div>
+              <div class="coi52">
+                Joined:2018/12/22 01:40:36
+              </div>
+              <div class="coi53">
+                <i>
+                  My nickname is dog.<br>
+                  My nickname is dog!<br>
+                  My nickname is dog!!!<br>
+                  I don't like Superior Dragon Armor.<br>
+                </i>
+              </div>
+            </div>
+            <!-- co6 -->
+            <div class="co6">
+              <div class="coi61">
+                Minus3141
+              </div>
+              <div class="coi62">
+                Joined:2018/10/03 05:54:48
+              </div>
+              <div class="coi63">
+                <i>
+                  My favorite game is Murder Mystery.<br>
+                  I'm running away from reality.<br>
+                  R.I.P.<br>
+                </i>
+              </div>
+            </div>
+            <!-- co7 -->
+            <div class="co7">
+              <div class="coi71">
+                Mos_ps
+              </div>
+              <div class="coi72">
+                Joined:2019/04/20 07:44:53
+              </div>
+              <div class="coi73">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- co8 -->
+            <div class="co8">
+              <div class="coi81">
+                chibimaro0203
+              </div>
+              <div class="coi82">
+                Joined:2019/03/28 06:06:09
+              </div>
+              <div class="coi83">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- co9 -->
+            <div class="co9">
+              <div class="coi91">
+                Mint_IA
+              </div>
+              <div class="coi92">
+                Joined:2018/11/03 01:32:47
+              </div>
+              <div class="coi93">
+                <i>
+                  I will not lose in PVP defeat rate!<br>
+                </i>
+              </div>
+            </div>
+            <!-- co10 -->
+            <div class="co10">
+              <div class="coi101">
+                Swordmob
+              </div>
+              <div class="coi102">
+                Joined:2018/06/07 06:55:00
+              </div>
+              <div class="coi103">
+                <i>
+                  text
+                </i
+              </div>
+            </div>
+            <!-- co11 -->
+            <div class="co11">
+              <div class="coi111">
+                JungoO0o
+              </div>
+              <div class="coi112">
+                Joined:2019/07/21 02:45:19
+              </div>
+              <div class="coi113">
+                <i>
+                  I'm a random nerd who wants to do random stuff on the internet that has no important purpose whatsoever.<br>
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- Leader -->
+          <div class="le">
+            <div class="len">
+              <u>Leader : 21players</u>
+            </div>
+            <!-- le1 -->
+            <div class="le1">
+              <div class="lei11">
+                Ellen0223
+              </div>
+              <div class="lei12">
+                Joined:2018/06/07 08:02:30
+              </div>
+              <div class="lei13">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- le2 -->
+            <div class="le2">
+              <div class="lei21">
+                H2W_
+              </div>
+              <div class="lei22">
+                Joined:2018/06/20 08:08:17
+              </div>
+              <div class="lei23">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- le3 -->
+            <div class="le3">
+              <div class="lei31">
+                Real_account (Rega_Ria)
+              </div>
+              <div class="lei32">
+                Joined:2018/08/26 06:37:02
+              </div>
+              <div class="lei33">
+                <i>
+                  I love you♡<br>
+                </i>
+              </div>
+            </div>
+            <!-- le4 -->
+            <div class="le4">
+              <div class="lei41">
+                DoctorSweat
+              </div>
+              <div class="lei42">
+                Joined:2018/11/14 07:40:08
+              </div>
+              <div class="lei43">
+                <i>
+                  text
+                </i>
+              </div>
+            </div>
+            <!-- le5 -->
+            <div class="le5">
+              <div class="lei51">
+                Exceryte
+              </div>
+              <div class="lei52">
+                Joined:2018/12/01 04:21:30
+              </div>
+              <div class="lei53">
+                text
+              </div>
+            </div>
+            <!-- le6 -->
+            <div class="le6">
+              <div class="lei61">
+                junggangosa
+              </div>
+              <div class="lei62">
+                Joined:2019/01/08 07:58:30
+              </div>
+              <div class="lei63">
+                text
+              </div>
+            </div>
+            <!-- le7 -->
+            <div class="le7">
+              <div class="lei71">
+                FlexGuy
+              </div>
+              <div class="lei72">
+                Joined:2019/02/03 04:31:57
+              </div>
+              <div class="lei73">
+                text
+              </div>
+            </div>
+            <!-- le8 -->
+            <div class="le8">
+              <div class="lei81">
+                MarkusOhYeahYeah
+              </div>
+              <div class="lei82">
+                Joined:2019/02/11 04:58:25
+              </div>
+              <div class="lei83">
+                text
+              </div>
+            </div>
+            <!-- le9 -->
+            <div class="le9">
+              <div class="lei91">
+                DracoVenatores
+              </div>
+              <div class="lei92">
+                Joined:2019/03/15 01:22:59
+              </div>
+              <div class="lei93">
+                text
+              </div>
+            </div>
+            <!-- le10 -->
+            <div class="le10">
+              <div class="lei101">
+                MeowBlue22
+              </div>
+              <div class="lei102">
+                Joined:2019/03/16 00:10:32
+              </div>
+              <div class="lei103">
+                text
+              </div>
+            </div>
+            <!-- le11 -->
+            <div class="le11">
+              <div class="lei111">
+                YUKIYK11
+              </div>
+              <div class="lei112">
+                Joined:2019/04/04 11:34:02
+              </div>
+              <div class="lei113">
+                text
+              </div>
+            </div>
+            <!-- le12 -->
+            <div class="le12">
+              <div class="lei121">
+                Louninja
+              </div>
+              <div class="lei122">
+                Joined:2019/04/20 12:50:57
+              </div>
+              <div class="lei123">
+                text
+              </div>
+            </div>
+            <!-- le13 -->
+            <div class="le13">
+              <div class="lei131">
+                B1GW0LF
+              </div>
+              <div class="lei132">
+                Joined:2019/08/28 01:59:13
+              </div>
+              <div class="lei133">
+                text
+              </div>
+            </div>
+            <!-- le14 -->
+            <div class="le14">
+              <div class="lei141">
+                lzdn
+              </div>
+              <div class="lei142">
+                Joined:2019/09/24 08:03:16
+              </div>
+              <div class="lei143">
+                text
+              </div>
+            </div>
+            <!-- le15 -->
+            <div class="le15">
+              <div class="lei151">
+                lcdn
+              </div>
+              <div class="lei152">
+                Joined:2019/09/24 08:03:56
+              </div>
+              <div class="lei153">
+                text
+              </div>
+            </div>
+            <!-- le16 -->
+            <div class="le16">
+              <div class="lei161">
+                CannoliCannoli
+              </div>
+              <div class="lei162">
+                Joined:2019/10/15 10:25:58
+              </div>
+              <div class="lei163">
+                text
+              </div>
+            </div>
+            <!-- le17 -->
+            <div class="le17">
+              <div class="lei171">
+                6Sheep
+              </div>
+              <div class="lei172">
+                Joined:2019/11/10 08:34:34
+              </div>
+              <div class="lei173">
+                text
+              </div>
+            </div>
+            <!-- le18 -->
+            <div class="le18">
+              <div class="lei181">
+                Kracker_MIMA
+              </div>
+              <div class="lei182">
+                Joined:2019/11/30 13:04:25
+              </div>
+              <div class="lei183">
+                text
+              </div>
+            </div>
+            <!-- le19 -->
+            <div class="le19">
+              <div class="lei191">
+                setsuna440
+              </div>
+              <div class="lei192">
+                Joined:2019/11/30 13:19:16
+              </div>
+              <div class="lei193">
+                text
+              </div>
+            </div>
+            <!-- le20 -->
+            <div class="le20">
+              <div class="lei201">
+                Ray_Light
+              </div>
+              <div class="lei202">
+                Joined:2019/12/03 14:45:16
+              </div>
+              <div class="lei203">
+                text
+              </div>
+            </div>
+            <!-- le21 -->
+            <div class="le21">
+              <div class="lei211">
+                EF210
+              </div>
+              <div class="lei212">
+                Joined:2019/12/06 07:48:40
+              </div>
+              <div class="lei213">
+                text
+              </div>
+            </div>
+          </div>
+
+          <!-- Admin -->
+          <div class="ad">
+            <div class="adn">
+              <u>Admin : 22players</u>
+            </div>
+            <div class="adg">
+              <ul class="adu">
+                <!-- ad1 -->
+                <li class="adl">
+                  <div class="adln">
+                    realn00dle
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/07/28 16:20:09
+                  </div>
+                </li>
+                <!-- ad2 -->
+                <li class="adl">
+                  <div class="adln">
+                    0_Kany_0
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/06/19 06:43:38
+                  </div>
+                </li>
+                <!-- ad3 -->
+                <li class="adl">
+                  <div class="adln">
+                    Mm2536qq
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/07/16 06:51:13
+                  </div>
+                </li>
+                <!-- ad4 -->
+                <li class="adl">
+                  <div class="adln">
+                    BadRouter
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/07/16 06:51:13
+                  </div>
+                </li>
+                <!-- ad5 -->
+                <li class="adl">
+                  <div class="adln">
+                    Groxsko
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/09/11 16:47:50
+                  </div>
+                </li>
+                <!-- ad6 -->
+                <li class="adl">
+                  <div class="adln">
+                    MoistlySweat
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/11/03 01:35:21
+                  </div>
+                </li>
+                <!-- ad7 -->
+                <li class="adl">
+                  <div class="adln">
+                    MoonStruckWolf
+                  </div>
+                  <div class="adlj">
+                    Joined:2018/11/28 08:19:50
+                  </div>
+                </li>
+                <!-- ad8 -->
+                <li class="adl">
+                  <div class="adln">
+                    weatherman2000
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/01/12 02:16:11
+                  </div>
+                </li>
+                <!-- ad9 -->
+                <li class="adl">
+                  <div class="adln">
+                    piro0706
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/02/05 06:26:56
+                  </div>
+                </li>
+                <!-- ad10 -->
+                <li class="adl">
+                  <div class="adln">
+                    TacticalPump
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/02/06 05:22:45
+                  </div>
+                </li>
+                <!-- ad11 -->
+                <li class="adl">
+                  <div class="adln">
+                    Vexzoe
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/02/13 21:50:56
+                  </div>
+                </li>
+                <!-- ad12 -->
+                <li class="adl">
+                  <div class="adln">
+                    StopCheatingMe
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/03/12 02:39:34
+                  </div>
+                </li>
+                <!-- ad13 -->
+                <li class="adl">
+                  <div class="adln">
+                    earth188QQ
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/03/15 13:07:55
+                  </div>
+                </li>
+                <!-- ad14 -->
+                <li class="adl">
+                  <div class="adln">
+                    Reyon_
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/03/28 06:06:54
+                  </div>
+                </li>
+                <!-- ad15 -->
+                <li class="adl">
+                  <div class="adln">
+                    RickYuKo
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/04/03 06:10:54
+                  </div>
+                </li>
+                <!-- ad16 -->
+                <li class="adl">
+                  <div class="adln">
+                    jimanunn
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/04/20 12:51:34
+                  </div>
+                </li>
+                <!-- ad17 -->
+                <li class="adl">
+                  <div class="adln">
+                    shinyatomoki
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/06/27 12:50:17
+                  </div>
+                </li>
+                <!-- ad18 -->
+                <li class="adl">
+                  <div class="adln">
+                    lalaku
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/07/28 02:01:49
+                  </div>
+                </li>
+                <!-- ad19 -->
+                <li class="adl">
+                  <div class="adln">
+                    coken21
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/08/17 14:31:50
+                  </div>
+                </li>
+                <!-- ad20 -->
+                <li class="adl">
+                  <div class="adln">
+                    Kouglus0619
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/08/28 10:59:01
+                  </div>
+                </li>
+                <!-- ad21 -->
+                <li class="adl">
+                  <div class="adln">
+                    Luck_Lucas2750
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/10/05 15:19:12
+                  </div>
+                </li>
+                <!-- ad22 -->
+                <li class="adl">
+                  <div class="adln">
+                    YH9
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/10/15 03:00:49
+                  </div>
+                </li>
+                <!-- ad23 -->
+                <li class="adl">
+                  <div class="adln">
+                    Dr_Leaf
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/11/03 08:40:53
+                  </div>
+                </li>
+                <!-- ad24 -->
+                <li class="adl">
+                  <div class="adln">
+                    furaito_baito
+                  </div>
+                  <div class="adlj">
+                    Joined:2019/12/06 14:05:15
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Super Member -->
+          <div class="sm">
+            <div class="smn">
+              <u>Super Member : 33players</u>
+            </div>
+            <div class="sml">
+              KitKatIllusion<br>
+              IlyNom<br>
+              keiribu<br>
+              Speed_Yoshi<br>
+              Thunder_Dragen	Super<br>
+              sikibu<br>
+              YoshBrosh<br>
+              KissMyPen15<br>
+              HaPiHardCore<br>
+              moririn29<br>
+              matsunokiFB56i<br>
+              chuichikit<br>
+              amaguri765<br>
+              Elementmax757<br>
+              inazuma0225<br>
+              silent_sh<br>
+              Professor_Noob_<br>
+              Yuizaki<br>
+              Felix_Schriever<br>
+              EnigmaSPX<br>
+              _sqdTop4ik_<br>
+              trugoy16<br>
+              mango0609<br>
+              Black_Dedede<br>
+              KobayashiAiko<br>
+              rankora<br>
+              syokoraking<br>
+              Infinius<br>
+              mawanho<br>
+              Naturecenter<br>
+              PicklePuppy<br>
+              soramame_256<br>
+              Hen_dk<br>
+            </div>
+          </div>
+
+          <!-- Member -->
+          <div class="me">
+            <div class="men">
+              <u>Member : 31 players</u>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="footer">
+        <div class="oi">
+          Official info
+          <li><a class="oihf" href="https://hypixel.net/guilds/Beyond+Description/">Hypixel Forum Info (There is nothing)</a></li>
+          <li><a class="oihm" href="https://hypixel.net/guilds/Beyond+Description/members">Hypixel Forum Member List</a></li>
+          <li><a class="oipi" href="https://plancke.io/hypixel/guild/name/beyond%20description">Planke Info</a></li>
+
+        </div>
+        <div class="fc">
+          Contact us
+          <li><a class="fcd" href="https://raraaaby81.github.io/BeyondDescription-discord/">Discord</a></li>
+          <li><a class="fcg" href="https://docs.google.com/forms/d/e/1FAIpQLSe3ExuehKW8CXCplZ9n3pUrVqLFMx0Bm9fU-2s73rGrP2dc5Q/viewform?usp=sf_link">Google Form</a></li>
+        </div>
+        <div class="fn">
+          Beyond Description
+          <span class="fnm"><i><a href="https://raraaaby81.github.io/BeyondDescription-secret-Minus3141/">Secret Page2</a></i></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- Beyond Description -->
+<!-- Kurumi_k921 -->
