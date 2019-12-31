@@ -109,6 +109,41 @@ body{
 
 
 /* Role about */
+.ml{
+  padding: 1vw 5vw;
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
+.mls{
+  padding: 1vw 5vw;
+  font-family: YuMincho;
+  border-left: thin solid #737373;
+  border-right: thin solid #737373;
+  padding: 1vw 5vw;
+}
+.mlst{
+  font-size: 1.8vw;
+}
+.hypi{
+  font-size: 1.5vw;
+  color: gold;
+  border: solid thin #b5b5b5;
+  padding: 0.5vw 1vw;
+  margin-bottom: 1vw;
+}
+.plan{
+  font-size: 1.5vw;
+  color: #1deaea;
+  border: solid thin #b5b5b5;
+  padding: 0.5vw 1vw;
+  margin-bottom: 1vw;
+}
+.mlsl{
+  padding-left: 1vw;
+}
+
 .ra{
   padding: 1vw 5vw;
   font-family: YuMincho;
@@ -116,7 +151,6 @@ body{
   border-right: thin solid #737373;
   padding: 1vw 5vw;
 }
-
 .rap{
   border: solid thin #b5b5b5;
   padding: 0.5vw 1vw;
