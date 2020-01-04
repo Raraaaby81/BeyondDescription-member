@@ -1124,7 +1124,7 @@ body{
 }
 .adl{
   font-size: 1.5vw;
-  border: thin solid blue;
+  border: thin solid #ffd7005c;
   padding-top: 0.3vw;
   padding-bottom: 0.3vw;
   padding-left: 1vw;
