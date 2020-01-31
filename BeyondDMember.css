@@ -525,6 +525,84 @@ body{
   border: thin solid #ff00ff30;
 }
 
+/* co12 */
+.co12{
+  border: thin solid #ff00ff5c;
+  margin-bottom: 1vw;
+}
+.coi121{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+  padding-top: 0.5vw;
+}
+.coi122{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi123{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co13 */
+.co13{
+  border: thin solid #ff00ff5c;
+  margin-bottom: 1vw;
+}
+.coi131{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+  padding-top: 0.5vw;
+}
+.coi132{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi133{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
+/* co14 */
+.co14{
+  border: thin solid #ff00ff5c;
+  margin-bottom: 1vw;
+}
+.coi141{
+  font-size: 2vw;
+  padding-left: 1vw;
+  padding-right: 7vw;
+  padding-top: 0.5vw;
+}
+.coi142{
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+.coi143{
+  font-size: 1.1vw;
+  margin-top: 0vw;
+  margin-bottom: 1vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding-top: 0.3vw;
+  padding: 0.5vw 2vw;
+  border: thin solid #ff00ff30;
+}
+
 
 /* Leader */
 .le{
